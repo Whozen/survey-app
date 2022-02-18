@@ -5,7 +5,6 @@ import building from '../assets/images/building.png';
 import crossing from '../assets/images/crossing.png';
 import nature from '../assets/images/nature.png';
 import policeman from '../assets/images/policeman.png';
-// import loader from '../assets/images/loader.gif';
 
 function Survey() {
   return (

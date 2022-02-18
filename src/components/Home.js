@@ -1,4 +1,5 @@
 import React from 'react'
+import aboutImage from '../assets/images/about-image.jpg'
 
 function Home() {
   return (
@@ -22,8 +23,8 @@ function Home() {
                 <div className="row">
 
                     <div className="col-md-4 col-sm-8">
-                        {/* <img src="images/about-image.jpg" className="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image"> */}
-                        <div className="wow fadeInUp" data-wow-delay="0.4s">
+                        <img src={aboutImage} className="wow fadeInUp img-responsive" data-wow-delay="0.2s" alt="about image" />
+                        <div className="wow fadeInUp" data-wow-delay="0.4s">    
                             <h4>Interested to Join?</h4>
                             <p>Sign up completely free. It only takes a minute.</p>
                             <a href="#">Sign Up Now</a>
